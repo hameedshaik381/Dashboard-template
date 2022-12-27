@@ -162,6 +162,7 @@ const App = ({ window }) => {
       >
         <Toolbar />
         <Routes>
+        <Route path="/" element={<Students />} />
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="student" element={<Students />} />
           <Route path="events" element={<Events />} />
